@@ -409,6 +409,7 @@ Here is Ugly Example
 ```
 
 </p>
+</details>
 
 And here is a Pretty Example
 
@@ -446,6 +447,7 @@ And here is a Pretty Example
 ```
 
 </p>
+</details>
 
 Now this is a lot better to read.
 With this Pretty JsonWriter you are forced to use these "Compressed Value Arrays". This is a rule that can not be turned off.
