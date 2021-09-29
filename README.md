@@ -1,4 +1,4 @@
-#PrettyGsonWriter
+# PrettyGsonWriter
 
 PrettyGsonWriter is a custom GsonWriter that just more prettyfied.
 How can Gson be more improved in PrettyGson?
@@ -10,7 +10,7 @@ in 2 Aspects actually fairly easy.
 
 Now this Pretty Gson Writer has its limits. Its not Perfect but it improves the Json Experience massivly.
 
-Here is Ugly Example
+### Here is Ugly Example
 <details>
 <summary>Ugly Json</summary>
 <p>
@@ -411,7 +411,7 @@ Here is Ugly Example
 </p>
 </details>
 
-And here is a Pretty Example
+### And here is a Pretty Example
 
 <details>
 <summary>Pretty Json</summary>
@@ -458,7 +458,9 @@ Also Compressed Elements get a "space" after each ","
 
 How this was achieved? It just applies a simple ruleset on to the JsonWriter and either blocks the writing of certain elements or exchanges them with something new.
 
-here is some example code how to write with this Pretty Json Writer:
+### Code Example
+
+Here is some example code how to write with this Pretty Json Writer:
 
 ```java
 public void write(JsonObject obj)
